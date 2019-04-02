@@ -196,7 +196,7 @@ image::DeletePersonSdForLogic.png[width="800"]
 === Model component
 
 .Structure of the Model Component
-image::ModelClassDiagram.png[width="800"]
+image::ModelClassDiagram.PNG[width="800"]
 
 *API* : link:{repoURL}/src/main/java/seedu/address/model/Model.java[`Model.java`]
 
@@ -384,7 +384,7 @@ We employ the "Composite" design pattern for this class as there are desirable b
 As such the logical choice would be to make `CourseRequirement` an interface and its implementation is restricted to
 the `PrimitiveRequirement` and `CompositeRequirement` classes.
 
-image::CompositeDesignPattern.png[width==800]
+image::CompositeDesignPattern.PNG[width==800]
 
 As the name suggests,
 `CompositeRequirement` is made up of two other `CourseRequirements`, a `LogicalConnector` enumerations (which is used to represent
